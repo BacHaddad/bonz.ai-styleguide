@@ -6,3 +6,18 @@
 @import 'links';
 @import 'links';
 @import 'brand';
+@import 'components';
+@import 'mixins';
+
+.rooms {
+  max-width: 1400px;
+  margin: 0 auto;
+  @include layout-grid;
+  padding: 5.6rem;
+
+  &_heading {
+    grid-column: auto/ span 2;
+    text-align: center;
+    margin: 2rem 0;
+  }
+}
