@@ -1,0 +1,16 @@
+@import 'variables';
+
+.button {
+  appearance: none;
+  background-color: $actionGreen;
+  color: $white;
+  padding: 1rem 2.125rem;
+  border: none;
+  outline: none;
+  border-radius: $radius;
+  font-size: $fontSizeBtn;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
