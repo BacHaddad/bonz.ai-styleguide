@@ -1,0 +1,18 @@
+@import 'variables';
+
+.checkbox-round {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: $black;
+  border-radius: 50%;
+
+  border: 0.625em solid $black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round:checked {
+  background-color: $white;
+}
